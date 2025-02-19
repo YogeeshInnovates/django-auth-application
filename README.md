@@ -38,15 +38,16 @@ cd django-auth-application
 Install the required packages:
 
 pip install -r requirements.txt
+
 Set up the database:
-
 python manage.py migrate
+
 Create a superuser:
-
 python manage.py createsuperuser
-Run the development server:
 
+Run the development server:
 python manage.py runserver
+
 Access the application: Open your browser and navigate to http://127.0.0.1:8000
 
 Email Configuration
@@ -58,8 +59,10 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'your_email@gmail.com'
 EMAIL_HOST_PASSWORD = 'your_16_digit_app_password'  # Use your app password
+
 Usage
-Signup: Sign up using a username and email
+
+Signup: Sign up using a username ,email and password
 
 Login: Login with credentials
 
@@ -69,10 +72,4 @@ Dashboard: Access the dashboard and view user profile
 
 Change Password: Change password securely
 
-Internship Assignment
-This project is developed for the WhatBytes Internship Assignment.
 
-Update & Push README to GitHub
-git add README.md
-git commit -m "Updated README with project details"
-git push origin main
